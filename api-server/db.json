@@ -1,0 +1,26 @@
+{
+  "streams": [
+    {
+      "title": "12 rules of life",
+      "description": "jordan petersen",
+      "id": 1
+    },
+    {
+      "title": "viper vs mbl",
+      "description": "aoe2 match",
+      "id": 2
+    },
+    {
+      "title": "test new router",
+      "description": "new gebneric router with custom history",
+      "userId": "105058770246241403105",
+      "id": 4
+    },
+    {
+      "title": "programmatic-navigation",
+      "description": "You should not see this page after submitting!!!",
+      "userId": "105058770246241403105",
+      "id": 5
+    }
+  ]
+}
