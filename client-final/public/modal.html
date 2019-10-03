@@ -1,0 +1,60 @@
+<head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .sidebar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100vh;
+      width: 20rem;
+      background-color: tomato;
+      color: aliceblue;
+      z-index: 0;
+    }
+
+    .content {
+      margin-left: 21rem;
+      margin-top: 3rem;
+    }
+
+    .modal {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background-color: cornflowerblue;
+      z-index: 10;
+    }
+
+    .modal-body {
+      height: 30%;
+      width: 30%;
+      background-color: aliceblue;
+      margin: auto;
+    }
+
+    .positioned {
+      position: relative;
+      z-index: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="modal">
+    <div class="modal-body">
+      <h4>I am a modal</h4>
+    </div>
+  </div>
+  <div class="positioned">
+    helllooooo!!!!
+  </div>
+  <h3 class="sidebar">SideBar</h3>
+  <h2 class="content">Some main content!!!</h2>
+</body>
